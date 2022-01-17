@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/dark"
+    tools:context=".HomeActivity">
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/cocogothicregular"
+            android:text="Latest Product:"
+            android:textStyle="bold"
+            android:textColor="@color/white0" />
+
+        <GridView
+            android:id="@+id/gridviews"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnWidth="160dp"
+            android:gravity="center"
+            android:scrollbars="horizontal"
+            android:numColumns="auto_fit"
+            android:stretchMode="none"/>
+
+    </LinearLayout>
+
+
+    <GridLayout
+        android:layout_width="320dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:columnCount="1"
+        android:rowCount="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:fontFamily="@font/cocogothicregular"
+            android:text="Product Name:"
+            android:textColor="@color/white0" />
+
+        <TextView
+            android:id="@+id/possname"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginTop="30dp"
+            android:background="@color/dark0"
+            android:backgroundTint="@color/dark"
+            android:fontFamily="@font/cocogothicregular"
+            android:textColor="@color/white0"
+            android:textColorHint="@color/lightgray"
+            android:textSize="20sp" />
+
+        <View
+            android:layout_width="190dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="65dp"
+            android:background="@color/limegreen"
+            android:layout_row="0"
+            android:layout_column="0"
+            />
+
+        <ImageView
+            android:id="@+id/imageView55"
+            android:layout_width="120dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="5dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="198dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price:"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginTop="65dp"
+            android:textColor="@color/white0"
+            android:fontFamily="@font/cocogothicregular"/>
+        <TextView
+            android:id="@+id/posprice"
+            android:layout_width="190dp"
+            android:layout_height="30dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textSize="20sp"
+            android:layout_marginTop="95dp"
+            android:textColor="@color/limegreen"
+            />
+        <View
+            android:layout_width="190dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="125dp"
+            android:background="@color/limegreen"
+            android:layout_row="0"
+            android:layout_column="0"
+            />
+
+    </GridLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="6"
+        android:orientation="vertical">
+
+
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:rowCount="20"
+            android:columnCount="20">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Quantity:"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white0"
+                android:fontFamily="@font/cocogothicregular"/>
+
+            <EditText
+                android:id="@+id/posquantity"
+                android:layout_width="313dp"
+                android:layout_height="30dp"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@color/dark0"
+                android:backgroundTint="@color/dark"
+                android:fontFamily="@font/asul"
+                android:textColor="@color/white0"
+                android:textColorHint="@color/lightgray"
+                android:textSize="20sp"
+                android:inputType="number"
+                />
+
+            <View
+                android:layout_width="320dp"
+                android:layout_height="3dp"
+                android:background="@color/limegreen"
+                android:layout_row="6"
+                android:layout_column="0"
+                />
+
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Total:"
+                android:layout_row="10"
+                android:layout_column="0"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white0"
+                android:fontFamily="@font/cocogothicregular"/>
+
+            <TextView
+                android:id="@+id/postotal"
+                android:layout_width="313dp"
+                android:layout_height="30dp"
+                android:layout_row="11"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@color/dark0"
+                android:backgroundTint="@color/dark"
+                android:fontFamily="@font/asul"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                />
+            <View
+                android:layout_width="320dp"
+                android:layout_height="3dp"
+                android:background="@color/limegreen"
+                android:layout_row="12"
+                android:layout_column="0"
+                />
+
+
+
+            <GridLayout
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_row="15"
+                android:layout_column="0"
+                android:columnCount="20"
+                android:rowCount="20">
+
+                <TextView
+                    android:id="@+id/tsss"
+                    android:layout_width="160dp"
+                    android:layout_height="30dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:fontFamily="@font/cocogothicbold"
+                    android:text="Total  Amount :"
+                    android:textColor="@color/white0"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cartotals"
+                    android:layout_width="155dp"
+                    android:layout_height="match_parent"
+                    android:textAlignment="textEnd"
+                    android:layout_row="0"
+                    android:layout_column="1"
+                    android:fontFamily="@font/asul"
+                    android:textSize="25sp"
+                    android:text="0"
+                    android:textColor="@color/white0" />
+
+            </GridLayout>
+
+
+            <Button
+                android:id="@+id/savebutton"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_row="17"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:text="ADD TO CART +"
+                android:textColor="@color/white0"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/cancelbutton"
+                android:layout_width="320dp"
+                android:layout_height="60dp"
+                android:layout_row="18"
+                android:layout_column="0"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center"
+                android:text="C H E C K  O U T"
+                android:textColor="@color/white0"
+                android:textSize="20sp" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="10"
+        android:orientation="horizontal"
+        android:background="@color/dark">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/bran"
+            android:background="@color/dark"
+            android:clickable="true"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/categor"
+            android:background="@color/dark"
+            android:clickable="true"/>
+
+            <include
+                android:layout_width="70dp"
+                android:layout_height="55dp"
+                layout="@layout/cartbutton"/>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/produc"
+            android:background="@color/dark"
+            android:clickable="true"/>
+        <ImageButton
+            android:id="@+id/imageButton4"
+            android:layout_width="80dp"
+            android:layout_height="55dp"
+            app:srcCompat="@drawable/ic_server_storage"
+            android:background="@color/dark"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/dark"
+    tools:context=".CategoryActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:rowCount="20"
+            android:layout_marginTop="20dp"
+            android:columnCount="4">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Brand Id:"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textColor="@color/white0"/>
+
+            <View
+                android:layout_width="290dp"
+                android:layout_height="3dp"
+                android:background="@color/limegreen"
+                android:layout_row="2"
+                android:layout_column="0"
+                />
+
+
+            <TextView
+                android:id="@+id/brandid"
+                android:layout_width="290dp"
+                android:layout_height="50dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@color/dark0"
+                android:backgroundTint="@color/dark"
+                android:fontFamily="@font/asul"
+                android:textColor="@color/white0"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Brand Name:"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white0"/>
+
+            <View
+                android:layout_width="290dp"
+                android:layout_height="3dp"
+                android:background="@color/limegreen"
+                android:layout_row="5"
+                android:layout_column="0"
+                />
+
+            <EditText
+                android:id="@+id/brandtext"
+                android:layout_width="290dp"
+                android:layout_height="50dp"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@color/dark0"
+                android:backgroundTint="@color/dark"
+                android:fontFamily="@font/cocogothicregular"
+                android:textColor="@color/white0"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Brand Discription:"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white0"/>
+
+            <EditText
+                android:id="@+id/branddescrp"
+                android:layout_width="290dp"
+                android:layout_height="50dp"
+                android:layout_row="8"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@color/dark0"
+                android:backgroundTint="@color/dark"
+                android:fontFamily="@font/cocogothicregular"
+                android:textColor="@color/white0"
+                android:textColorHint="@color/lightgray"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="290dp"
+                android:layout_height="3dp"
+                android:background="@color/limegreen"
+                android:layout_row="9"
+                android:layout_column="0"
+                />
+
+            <Button
+                android:id="@+id/editcategorbrand"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_row="9"
+                android:layout_column="0"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:text="U P D A T E"
+                android:textColor="@color/white0"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/backbrand"
+                android:layout_width="290dp"
+                android:layout_height="70dp"
+                android:layout_row="10"
+                android:layout_column="0"
+                android:layout_marginTop="5dp"
+                android:text="C A N C E L"
+                android:textColor="@color/white0"
+                android:textSize="20sp" />
+
+
+        </GridLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

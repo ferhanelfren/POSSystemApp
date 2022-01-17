@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/dark">
+
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cocogothicregular"
+            android:textAlignment="center"
+            android:text="Your Profile"
+            android:textStyle="bold"
+            android:textColor="@color/limegreen"
+            android:textSize="25dp"
+            android:layout_row="0"
+            android:layout_column="0"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/cocogothicregular"
+                android:text="Email:"
+                android:textColor="@color/white0"
+                android:textSize="20dp"
+                android:layout_row="0"
+                android:layout_column="0"/>
+
+            <TextView
+                android:id="@+id/users"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Product Name:"
+                android:textColor="@color/white0"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:layout_row="0"
+                android:layout_column="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+
+        android:orientation="horizontal">
+        <View
+            android:layout_width="290dp"
+            android:layout_height="3dp"
+            android:background="@color/limegreen"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cocogothicregular"
+            android:text="Full Name:"
+            android:textColor="@color/white0"
+            android:textSize="20dp"
+            android:layout_row="0"
+            android:layout_column="0"/>
+
+        <TextView
+            android:id="@+id/fullnamess"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+
+            android:text="Full Name"
+            android:textColor="@color/white0"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_row="0"
+            android:layout_column="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+        <View
+            android:layout_width="290dp"
+            android:layout_height="3dp"
+            android:background="@color/limegreen"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/currentPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@color/dark"
+                android:hint="Current Password:"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white0"
+                android:textColorHint="@color/lightgray"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/newPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@color/dark"
+                android:hint="New Password:"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white0"
+                android:textColorHint="@color/lightgray"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/typenewPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@color/dark"
+                android:hint="Confirm Password:"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white0"
+                android:textColorHint="@color/lightgray"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/userid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textColor="@color/dark0"
+            android:textSize="10dp"
+            android:layout_row="0"
+            android:layout_column="0"/>
+
+
+        <Button
+            android:id="@+id/updatebutton"
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:text="U P D A T E"
+            android:textColor="@color/white0"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark"
+    tools:context=".TryActivity">
+
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="254dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@color/dark0"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/dark"
+        android:fontFamily="@font/asul"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="313dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/dark0"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/dark"
+        android:fontFamily="@font/asul"
+        android:textColorHint="@color/lightgray"
+        android:textSize="20sp"
+        android:inputType="number"
+        />
+
+
+    <EditText
+        android:id="@+id/ed3"
+        android:layout_width="313dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/dark0"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/asul"
+        android:inputType="number"
+        android:textColor="@color/dark"
+        android:textColorHint="@color/lightgray"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/ed4"
+        android:layout_width="313dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@color/dark0"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/asul"
+        android:inputType="number"
+        android:textColor="@color/dark"
+        android:textColorHint="@color/lightgray"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/savebutton"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:text="P L A C E  O R D E R"
+        android:textColor="@color/white0"
+        android:textSize="20sp" />
+
+
+
+
+    <TableLayout
+        android:id="@+id/tbl1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:stretchColumns="*">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:rowCount="20"
+            android:columnCount="20">
+
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Name"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                />
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                />
+
+
+
+
+
+        </GridLayout>
+
+
+    </TableLayout>
+
+
+
+
+</LinearLayout>

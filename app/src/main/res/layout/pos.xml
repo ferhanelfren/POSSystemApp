@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@color/dark"
+    tools:context=".POSActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1">
+
+
+        <TextView
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Point Of Sale System"
+            android:textSize="25dp"
+            android:fontFamily="@font/cocogothicregular"
+            android:textColor="@color/limegreen"/>
+
+
+
+
+        <GridLayout
+            android:layout_width="290dp"
+            android:layout_height="135dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:columnCount="1"
+            android:rowCount="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:fontFamily="@font/cocogothicregular"
+                android:text="Product Name:"
+                android:textColor="@color/white0" />
+
+            <TextView
+                android:id="@+id/possname"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginTop="30dp"
+                android:background="@color/dark0"
+                android:backgroundTint="@color/dark"
+                android:fontFamily="@font/cocogothicregular"
+                android:textColor="@color/white0"
+                android:textColorHint="@color/lightgray"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="3dp"
+                android:layout_marginTop="65dp"
+                android:background="@color/limegreen"
+                android:layout_row="0"
+                android:layout_column="0"
+                />
+
+            <ImageView
+                android:id="@+id/imageView55"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="5dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="165dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Price:"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginTop="65dp"
+                android:textColor="@color/white0"
+                android:fontFamily="@font/cocogothicregular"/>
+            <TextView
+                android:id="@+id/posprice"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:textSize="20sp"
+                android:layout_marginTop="95dp"
+                android:textColor="@color/limegreen"
+                />
+            <View
+                android:layout_width="150dp"
+                android:layout_height="3dp"
+                android:layout_marginTop="125dp"
+                android:background="@color/limegreen"
+                android:layout_row="0"
+                android:layout_column="0"
+                />
+
+        </GridLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="6"
+            android:orientation="vertical">
+
+
+
+            <GridLayout
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:rowCount="20"
+                android:columnCount="20">
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_column="0"
+                    android:layout_row="5">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/posquantity"
+                        android:layout_width="290dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:background="@color/dark"
+                        android:hint="Your Quantity :"
+                        android:inputType="number"
+                        android:textColor="@color/white0"
+                        android:textColorHint="@color/lightgray"
+                        android:textSize="20sp"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <View
+                    android:layout_width="290dp"
+                    android:layout_height="3dp"
+                    android:background="@color/limegreen"
+                    android:layout_row="6"
+                    android:layout_column="0"
+                    />
+
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Total:"
+                    android:layout_row="10"
+                    android:layout_column="0"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white0"
+                    android:fontFamily="@font/cocogothicregular"/>
+
+                <TextView
+                    android:id="@+id/postotal"
+                    android:layout_width="290dp"
+                    android:layout_height="30dp"
+                    android:layout_row="11"
+                    android:layout_column="0"
+                    android:layout_marginTop="5dp"
+                    android:background="@color/dark0"
+                    android:backgroundTint="@color/dark"
+                    android:fontFamily="@font/asul"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    />
+                <View
+                    android:layout_width="290dp"
+                    android:layout_height="3dp"
+                    android:background="@color/limegreen"
+                    android:layout_row="12"
+                    android:layout_column="0"
+                    />
+
+
+
+                <GridLayout
+                    android:layout_width="290dp"
+                    android:layout_height="wrap_content"
+                    android:layout_row="15"
+                    android:layout_column="0"
+                    android:columnCount="20"
+                    android:rowCount="20">
+
+                    <TextView
+                        android:id="@+id/tsss"
+                        android:layout_width="150dp"
+                        android:layout_height="30dp"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/cocogothicbold"
+                        android:text="Total  Amount :"
+                        android:textColor="@color/white0"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/cartotals"
+                        android:layout_width="135dp"
+                        android:layout_height="match_parent"
+                        android:textAlignment="textEnd"
+                        android:layout_marginTop="20dp"
+                        android:layout_row="0"
+                        android:layout_column="1"
+                        android:fontFamily="@font/asul"
+                        android:textSize="25sp"
+                        android:text="0"
+                        android:textColor="@color/white0" />
+
+                </GridLayout>
+
+
+                <Button
+                    android:id="@+id/savebutton"
+                    android:layout_width="290dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_row="17"
+                    android:layout_column="0"
+                    android:text="ADD TO CART +"
+                    android:textColor="@color/white0"
+                    android:textSize="20sp" />
+
+
+            </GridLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark"
+    android:gravity="center"
+    tools:context=".Product">
+    
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+                <GridLayout
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:rowCount="2"
+                    android:columnCount="2">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_marginTop="6dp"
+                        android:text="Product Name:"
+                        android:textColor="@color/white0" />
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:src="@drawable/ic_sharp_person_24" />
+
+                    <Button
+                        android:id="@+id/searchbutton1"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_row="0"
+                        android:layout_column="0"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="225dp"
+                        android:text="Open File"
+                        android:textColor="@color/white0"
+                        android:textSize="10sp" />
+
+                </GridLayout>
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="3dp"
+                android:background="@color/limegreen"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Name:"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="120dp"
+                android:textColor="@color/white0"/>
+
+            <EditText
+                android:id="@+id/posname1"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@color/dark0"
+                android:backgroundTint="@color/dark"
+                android:fontFamily="@font/asul"
+                android:textColor="@color/white0"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="3dp"
+                android:background="@color/limegreen"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Brand:"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="145dp"
+                android:textColor="@color/white0"/>
+
+            <Spinner
+                android:id="@+id/branid1"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="3dp"
+                android:background="@color/limegreen"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Category:"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="135dp"
+                android:textColor="@color/white0"/>
+
+            <Spinner
+                android:id="@+id/categorid1"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="3dp"
+                android:background="@color/limegreen"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Quantity:"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="110dp"
+                android:textColor="@color/white0"/>
+
+            <EditText
+                android:id="@+id/pospqty1"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@color/dark0"
+                android:backgroundTint="@color/dark"
+                android:fontFamily="@font/asul"
+                android:inputType="number"
+                android:textColor="@color/white0"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="3dp"
+                android:background="@color/limegreen"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Price:"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="120dp"
+                android:textColor="@color/white0"/>
+
+            <EditText
+                android:id="@+id/posprice1"
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@color/dark0"
+                android:backgroundTint="@color/dark"
+                android:fontFamily="@font/asul"
+                android:inputType="number"
+                android:textColor="@color/white0"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="330dp"
+                android:layout_height="3dp"
+                android:background="@color/limegreen"
+                />
+
+
+
+
+            <Button
+                android:id="@+id/savebutton1"
+                android:layout_width="330dp"
+                android:layout_height="70dp"
+                android:layout_row="17"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="P O S T"
+                android:textColor="@color/white0"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/cancelbutton1"
+                android:layout_width="330dp"
+                android:layout_height="70dp"
+                android:layout_row="17"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:text="C A N C L E"
+                android:textColor="@color/white0"
+                android:textSize="20sp" />
+
+            
+        </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Point on Sale</string>
+    <string name="cat">Category</string>
+    <string name="catview">Category View</string>
+    <string name="categogry_name">Categogry Name</string>
+    <string name="categogry_discription">Categogry Discription</string>
+    <string name="s_a_v_e">S A V E</string>
+
+
+</resources>

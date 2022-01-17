@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/belowdark">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="170dp"
+                android:layout_height="150dp"
+                android:src="@drawable/ic_sharp_person_24"
+                android:layout_gravity="center"
+                />
+        <TextView
+            android:id="@+id/producttext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product name"
+            android:textColor="@color/white"
+            android:fontFamily="@font/cocogothicregular"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:paddingLeft="5dp"
+            />
+        
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="2"
+            android:columnCount="2">
+
+
+            <TextView
+                android:id="@+id/pricetext"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/limegreen"
+                android:paddingLeft="5dp"
+                android:layout_row="0"
+                android:layout_column="0"/>
+
+            <TextView
+                android:id="@+id/qtytext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Quantity"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:textAlignment="textEnd"
+                android:paddingRight="5dp"/>
+
+            <TextView
+                android:id="@+id/idpos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:textAlignment="textEnd"
+                android:paddingRight="5dp"/>
+
+
+        </GridLayout>
+
+        
+
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical"
+        android:background="@color/belowdark">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/ic_sharp_person_24"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/producttext2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product name"
+            android:textColor="@color/white"
+            android:fontFamily="@font/cocogothicregular"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:paddingLeft="5dp"
+            />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rowCount="2"
+            android:columnCount="2">
+
+
+            <TextView
+                android:id="@+id/pricetext2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="@color/limegreen"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:paddingLeft="5dp"/>
+
+            <TextView
+                android:id="@+id/qtytext2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Quantity"
+                android:textStyle="bold"
+                android:textSize="10dp"
+                android:textColor="@color/white"
+                android:layout_row="0"
+                android:layout_column="1"
+                android:paddingRight="5dp"
+                android:textAlignment="textEnd"/>
+
+
+        </GridLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

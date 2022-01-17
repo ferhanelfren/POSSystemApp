@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:top="10dp"
+    android:bottom="10dp"
+    android:right="10dp"
+    android:left="10dp">
+
+    <item
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_notifications_24"
+        android:title="">
+
+        <menu>
+
+            <item
+                android:id="@+id/brand"
+                android:icon="@drawable/bran"
+                android:title="   Brand"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/brandview"
+                android:icon="@drawable/view"
+                android:title="   Brand List"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/product"
+                android:icon="@drawable/produc"
+                android:title="   Product"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/productview"
+                android:icon="@drawable/view"
+                android:title="   Product List"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/category"
+                android:icon="@drawable/categor"
+                android:title="   Category"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/categoryview"
+                android:icon="@drawable/view"
+                android:title="   Category List"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/pos"
+                android:icon="@drawable/shoppingcart"
+                android:title="   Point on Sale"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/posview"
+                android:icon="@drawable/view"
+                android:title="   Point on Sale"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/logout"
+                android:title="   Log Out"
+                app:showAsAction="never"/>
+
+        </menu>
+    </item>
+
+
+
+</menu>

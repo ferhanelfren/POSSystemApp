@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable-v24/ic_baseline_local_phone_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable-v24/ic_baseline_login_24.xml" value="0.16111111111111112" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable-v24/ic_baseline_mail.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable-v24/ic_baseline_mail_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable-v24/ic_sharp_person_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable-v24/rounded_button.xml" value="0.15989583333333332" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable-v24/shoppingcart2.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/account.xml" value="0.240625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/bran.xml" value="0.15833333333333333" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/bran_background.xml" value="0.16111111111111112" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/brand_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/branding.xml" value="0.16111111111111112" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/categor.xml" value="0.15833333333333333" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/dashboard_24.xml" value="0.15989583333333332" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/home_24.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/ic_back.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/ic_baseline_layers_24.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/ic_bran.xml" value="0.15833333333333333" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/ic_cancel.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/ic_server_storage.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/logo.xml" value="0.29010416666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/logout.xml" value="0.15833333333333333" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/menu_image.xml" value="0.290625" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/produc.xml" value="0.15833333333333333" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/search_magnifying.xml" value="0.28615384615384615" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/shoppingcart.xml" value="0.15833333333333333" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/drawable/view.xml" value="0.16041666666666668" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/activity_brand.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/activity_brand_list.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/activity_category.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/activity_main2.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/activity_main_backup.xml" value="0.22447916666666667" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/activity_pos_lists.xml" value="0.2484375" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/activity_product.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/activity_product_backupni.xml" value="0.22447916666666667" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/activity_product_cart_list.xml" value="0.22447916666666667" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/activity_try.xml" value="0.264" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/add_cart.xml" value="0.176" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/brand.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/brand_edit.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/brand_list.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/cardiviewdialog.xml" value="0.1" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/cartbutton.xml" value="0.6" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/carteditpop.xml" value="0.2" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/carview.xml" value="0.1" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/category.xml" value="0.22447916666666667" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/category_edit.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/category_list.xml" value="0.2" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/category_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/delete_display.xml" value="0.1" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/delete_displaydata.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/delete_main.xml" value="0.135258358662614" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/delete_singledata.xml" value="0.264" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/edit_category.xml" value="0.136" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/fragment_category_first_page.xml" value="0.1" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/fragment_category_second_page.xml" value="0.2" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/listhorizontal_yourcartlist.xml" value="0.22447916666666667" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/listviewi_item_color.xml" value="0.19429347826086957" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/login.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/pop.xml" value="0.264" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/pos.xml" value="0.264" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/pos_backup.xml" value="0.22447916666666667" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/pos_lists.xml" value="0.1334853090172239" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/product.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/product_items.xml" value="0.6" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/product_list.xml" value="0.264" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/product_lists.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/productgridviewlists.xml" value="0.22447916666666667" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/profilenames.xml" value="0.22447916666666667" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/reciept.xml" value="0.27395833333333336" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/row_item.xml" value="0.135258358662614" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/save_image.xml" value="0.1" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/updatepos.xml" value="0.22447916666666667" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/layout/your_cartlist.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/menu/menu_item.xml" value="0.18072916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/menu/menu_item2.xml" value="0.22447916666666667" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/menu/menu_item_developer.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/menu/menu_item_pop.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/menu/menu_item_pos.xml" value="0.27447916666666666" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/menu/menusearch.xml" value="0.1" />
+        <entry key="..\:/User/Documents/AndroidStudioProjects/PointOnSales/app/src/main/res/mipmap-anydpi-v26/bran.xml" value="0.15743589743589745" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
